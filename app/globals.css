@@ -2,26 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* :root {
+
+} */
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0;
+  padding: 0;
+  color: #1f1f1f;
+  background: #f7f7f7;
+}
+
+.background1{
+  background: url('../public/fondo3.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background2{
+  background: url('../public/fondo1.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
