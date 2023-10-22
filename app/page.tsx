@@ -55,7 +55,7 @@ export default function Home() {
             height={70}
           />
         </Link>
-        <div className="px-10 py-5 bg-background/90 w-[670px]">
+        <div className="px-10 py-5 bg-background/90 w-[670px] ">
           <h1 className="text-6xl font-bold text-center">
             EMPRENDIMIENTOS <br /> INMOBILIARIOS
           </h1>
@@ -76,7 +76,7 @@ export default function Home() {
         </h2>
         <div className="flex flex-col gap-10">
           <div className="flex gap-10">
-            <div className="w-1/2 h-[400px] proyecto1 flex flex-col justify-center items-center ">
+            <div className="w-1/2 h-[400px] proyecto1 flex flex-col justify-center items-center shadow-lg hover:-translate-y-1 hover:opacity-75 transition-all ease-linear hover:cursor-pointer">
               <div className="bg-background/90 py-5 px-10 flex flex-col justify-center items-center text-center">
                 <h4 className="font-bold text-2xl mb-2 text-center">
                   LA AGUADA
@@ -90,7 +90,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="w-1/2 h-[400px] proyecto2 flex flex-col justify-center items-center ">
+            <div className="w-1/2 h-[400px] proyecto2 flex flex-col justify-center items-center shadow-lg hover:-translate-y-1 hover:opacity-75 transition-all ease-linear hover:cursor-pointer">
               <div className="bg-background/90 py-5 px-10 flex flex-col justify-center items-center text-center">
                 <h4 className="font-bold text-2xl mb-2 text-center">
                   BUSTILLO UNO
@@ -105,7 +105,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex gap-10">
-            <div className="w-1/2 h-[400px] proyecto3 flex flex-col justify-center items-center ">
+            <div className="w-1/2 h-[400px] proyecto3 flex flex-col justify-center items-center shadow-lg hover:-translate-y-1 hover:opacity-75 transition-all ease-linear hover:cursor-pointer">
               <div className="bg-background/90 py-5 px-10 flex flex-col justify-center items-center text-center">
                 <h4 className="font-bold text-2xl mb-2 text-center">
                   BELLA VISTA
@@ -118,7 +118,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="w-1/2 h-[400px] proyecto4 flex flex-col justify-center items-center ">
+            <div className="w-1/2 h-[400px] proyecto4 flex flex-col justify-center items-center shadow-lg hover:-translate-y-1 hover:opacity-75 transition-all ease-linear hover:cursor-pointer">
               <div className="bg-background/90 py-5 px-10 flex flex-col justify-center items-center text-center">
                 <h4 className="font-bold text-2xl mb-2 text-center">
                   LOMAS DEL CAUQUEN
@@ -133,7 +133,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex gap-10">
-            <div className="w-1/2 h-[400px] proyecto5 flex flex-col justify-center items-center ">
+            <div className="w-1/2 h-[400px] proyecto5 flex flex-col justify-center items-center shadow-lg hover:-translate-y-1 hover:opacity-75 transition-all ease-linear hover:cursor-pointer">
               <div className="bg-background/90 py-5 px-10 flex flex-col justify-center items-center text-center">
                 <h4 className="font-bold text-2xl mb-2 text-center">
                   LAS PITRAS
@@ -146,7 +146,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="w-1/2 h-[400px] proyecto6 flex flex-col justify-center items-center ">
+            <div className="w-1/2 h-[400px] proyecto6 flex flex-col justify-center items-center shadow-lg hover:-translate-y-1 hover:opacity-75 transition-all ease-linear hover:cursor-pointer">
               <div className="bg-background/90 py-5 px-10 flex flex-col justify-center items-center text-center">
                 <h4 className="font-bold text-2xl mb-2 text-center">
                   BARILOCHE CENTER
@@ -161,7 +161,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex gap-10">
-            <div className="w-1/2 h-[400px] proyecto7 flex flex-col justify-center items-center ">
+            <div className="w-1/2 h-[400px] proyecto7 flex flex-col justify-center items-center shadow-lg hover:-translate-y-1 hover:opacity-75 transition-all ease-linear hover:cursor-pointer">
               <div className="bg-background/90 py-5 px-10 flex flex-col justify-center items-center text-center">
                 <h4 className="font-bold text-2xl mb-2 text-center">
                   CARANTANIA
@@ -174,7 +174,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="w-1/2 h-[400px] proyecto8 flex flex-col justify-center items-center ">
+            <div className="w-1/2 h-[400px] proyecto8 flex flex-col justify-center items-center shadow-lg hover:-translate-y-1 hover:opacity-75 transition-all ease-linear hover:cursor-pointer">
               <div className="bg-background/90 py-5 px-10 flex flex-col justify-center items-center text-center">
                 <h4 className="font-bold text-2xl mb-2 text-center">
                   ENTRE CERROS
