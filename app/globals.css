@@ -25,8 +25,55 @@ body {
 }
 
 .background2{
-  background: url('../public/fondo1.jpeg');
+  background: url('../public/fondo4.jpeg');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.background3{
+  background: url('../public/fondo1.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+
+.proyecto1{
+  background: url('../public/la-aguada.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+.proyecto2{
+  background: url('../public/bustillo-uno.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+.proyecto3{
+  background: url('../public/bella-vista.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+.proyecto4{
+  background: url('../public/lomas-del-cauquen.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+.proyecto5{
+  background: url('../public/las-pitras.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+.proyecto6{
+  background: url('../public/bariloche-center.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+.proyecto7{
+  background: url('../public/carantania.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+.proyecto8{
+  background: url('../public/entre-cerros.jpeg');
+  background-position: center;
+  background-size: cover;
 }
