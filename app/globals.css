@@ -122,6 +122,9 @@ body {
 
 
 @media only screen and (max-width: 768px) {
+  .background1, .background2 {
+    background-attachment: scroll;
+  }
   .nav {
     margin: 0 1rem;
   }
