@@ -120,7 +120,7 @@ export default function Home() {
           </p>
         </div>
         <Link
-          className="bg-[#812962] text-background hover:text-[#812962] hover:bg-background/90 transition-colors ease-linear duration-100 px-6 py-3 text-lg font-bold"
+          className="bg-[#812962] text-background hover:text-[#812962] hover:bg-background/90 transition-colors ease-linear duration-100 px-6 py-3 text-xs md:text-lg font-bold"
           href={
             "https://api.whatsapp.com/send/?phone=%2B542944959344&text=Hola%2C+tengo+una+consulta%21&type=phone_number&app_absent=0"
           }
